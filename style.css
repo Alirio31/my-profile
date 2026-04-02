@@ -1,0 +1,66 @@
+/* --- Couleurs et Police --- */
+
+body { 
+    background: #f3f0f7; /* Gris lavande très clair */
+    color: #2d2d2d;
+    font-family: "Faustina", serif;
+    font-size: 19px; /* Légèrement plus grand pour le confort */
+    line-height: 1.6; /* Plus d'espace entre les lignes */
+}
+
+h1 { 
+    color: #4a148c; /* Violet profond */
+    font-size: 40px; 
+    margin-bottom: 20px;
+} 
+
+h2 {
+    color: #6a1b9a; /* Violet intermédiaire */
+    font-size: 26px;
+    border-bottom: 2px solid #e1bee7; /* Petite ligne sous les titres */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+h1, h2 { font-family: "Roboto Flex", sans-serif; }
+
+/* Liens */
+a { text-decoration: none; color: #7b1fa2; transition: 0.3s; }
+a:hover { color: #4a148c; }
+
+/* --- Composants --- */
+
+.card-white {
+    background-color: white;
+    padding: 50px; /* Un peu plus de padding pour aérer */
+    box-shadow: 0px 10px 30px rgba(74, 20, 140, 0.08); /* Ombre teintée violet */
+    border-radius: 12px; /* Arrondis plus doux */
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.btn-grey {
+    background-color: #7b1fa2; /* Bouton Violet */
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-grey:hover { 
+    background-color: #4a148c;
+    color: white;
+    transform: scale(1.05); /* Petit effet de zoom au survol */
+}
+
+.list-inline i { 
+    font-size: 45px;
+    color: #7b1fa2; /* Icônes violettes */
+    transition: 0.3s;
+}
+
+.list-inline i:hover {
+    color: #4a148c;
+    transform: translateY(-5px); /* Les icônes montent un peu au survol */
+}
